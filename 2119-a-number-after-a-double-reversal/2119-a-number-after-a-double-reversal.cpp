@@ -14,9 +14,7 @@ public:
         // }
         // return x == again; 
         string j = to_string(num);
-        if(j.size() < 2){
-            return true;
-        }
+        if(j.size() < 2) return true;
         return j[j.size()-1] != '0';
     }
 };
