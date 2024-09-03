@@ -1,18 +1,19 @@
 class Solution {
 public:
     int differenceOfSum(vector<int>& nums) {
-        int num1 = 0;
-        int num2 = 0;
+        int num1 = 0; 
+        int num2 = 0; 
         
-        string inString = "";
-        for(int i = 0 ; i < nums.size();i++){
-            num1 += nums[i];
+        for (int num : nums) { 
+            num1 += num;
             
-            while (nums[i] > 0) {
-                num2 += nums[i] % 10;
-                nums[i] /= 10;
+            int temp = num;
+            while (temp > 0) {
+                num2 += temp % 10; 
+                temp /= 10;   
             }
         }
-        return num1 - num2;
+        
+        return num1 - num2; 
     }
 };
