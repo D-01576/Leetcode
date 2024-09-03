@@ -1,17 +1,22 @@
 class Solution {
 public:
     int countEven(int num) {
-        int ans = 0;
-        for(int i = 1; i <= num ;i++){
-            string s = to_string(i);
-            int temp = 0;
-            for(int i = 0 ; i < s.size();i++){
-                temp += s[i] - '0';
+        int count = 0;
+        
+        for (int i = 1; i <= num; ++i) {
+            int sumOfDigits = 0;
+            int current = i;
+            
+            while (current > 0) {
+                sumOfDigits += current % 10;
+                current /= 10;
             }
-            if(temp % 2 == 0){
-                ans++;
+            
+            if (sumOfDigits % 2 == 0) {
+                ++count;
             }
         }
-        return ans;
+        
+        return count;
     }
 };
