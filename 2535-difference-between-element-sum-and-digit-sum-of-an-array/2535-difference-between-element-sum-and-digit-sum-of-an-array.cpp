@@ -7,12 +7,11 @@ public:
         string inString = "";
         for(int i = 0 ; i < nums.size();i++){
             num1 += nums[i];
-            int temp = 0;
-            inString = to_string(nums[i]);
-            for(int j = 0 ; j < inString.size();j++){
-                temp += inString[j]-'0';
+            
+            while (nums[i] > 0) {
+                num2 += nums[i] % 10;
+                nums[i] /= 10;
             }
-            num2 += temp;
         }
         return num1 - num2;
     }
