@@ -11,6 +11,9 @@ public:
             {'D', 500},
             {'M', 1000}
         };
+        if(s.size() == 1){
+            return romanValues[s[0]];
+        }
         for(int i = 0 ; i < s.size();i++){
             int value = romanValues[s[i+1]];
             int val = romanValues[s[i]];
