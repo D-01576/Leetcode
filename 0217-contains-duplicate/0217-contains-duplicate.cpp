@@ -4,12 +4,11 @@
 class Solution {
 public:
     bool containsDuplicate(std::vector<int>& nums) {
-        std::unordered_set<int> unique_elements;
-        for (const int& num : nums) {
-            if (unique_elements.find(num) != unique_elements.end()) {
+        std::unordered_set<int> seen;
+        for (int num : nums) {
+            if (!seen.insert(num).second) {
                 return true;
             }
-            unique_elements.insert(num);
         }
         return false;
     }
