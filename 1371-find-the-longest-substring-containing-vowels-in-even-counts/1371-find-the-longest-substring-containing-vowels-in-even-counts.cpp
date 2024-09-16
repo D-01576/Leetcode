@@ -1,31 +1,22 @@
-#include <unordered_map>
-#include <string>
-using namespace std;
-
 class Solution {
 public:
     int findTheLongestSubstring(string s) {
-        unordered_map<int, int> startchar;
-        int max_len = 0;
-        int bitmask = 0;
-        startchar[0] = -1;
-
-        for (int i = 0; i < s.size(); ++i) {
-            char c = s[i];
-
-            if (c == 'a') bitmask ^= (1 << 0);
-            if (c == 'e') bitmask ^= (1 << 1);
-            if (c == 'i') bitmask ^= (1 << 2);
-            if (c == 'o') bitmask ^= (1 << 3);
-            if (c == 'u') bitmask ^= (1 << 4);
-
-            if (startchar.find(bitmask) == startchar.end()) {
-                startchar[bitmask] = i;
+        int n = s.length();
+        int mask = 0, maxLength = 0;
+        vector<int> bit(32, -1); 
+        bit[0] = 0;  
+        for (int i = 0; i < n; i++) {
+            if (s[i] == 'a') mask ^= (1 << 0);
+            if (s[i] == 'e') mask ^= (1 << 1);
+            if (s[i] == 'i') mask ^= (1 << 2);
+            if (s[i] == 'o') mask ^= (1 << 3);
+            if (s[i] == 'u') mask ^= (1 << 4);
+            if (bit[mask] != -1) {
+                maxLength = max(maxLength, i + 1 - bit[mask]);
             } else {
-                max_len = max(max_len, i - startchar[bitmask]);
+                bit[mask] = i + 1;
             }
         }
-
-        return max_len;
+        return maxLength;
     }
 };
