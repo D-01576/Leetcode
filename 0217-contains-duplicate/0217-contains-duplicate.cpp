@@ -1,7 +1,16 @@
+#include <vector>
+#include <unordered_set>
+
 class Solution {
 public:
-    bool containsDuplicate(vector<int>& nums) {
-        set<int> jj(nums.begin(), nums.end());
-        return nums.size() != jj.size();
+    bool containsDuplicate(std::vector<int>& nums) {
+        std::unordered_set<int> unique_elements;
+        for (const int& num : nums) {
+            if (unique_elements.find(num) != unique_elements.end()) {
+                return true;
+            }
+            unique_elements.insert(num);
+        }
+        return false;
     }
 };
