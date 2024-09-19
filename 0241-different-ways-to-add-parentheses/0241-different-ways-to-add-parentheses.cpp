@@ -1,28 +1,49 @@
 class Solution {
-private:   
-    int solve(int x, int y, char c){
-        if(c == '+') return x+y;
-        if(c == '-') return x-y;
-        if(c == '*') return x*y;
-        return 0;
-    }
 public:
-    vector<int> diffWaysToCompute(string expression) {
-        vector<int> ans;
-        bool isNum=1;
-        for(int i=0; i<expression.size(); i++){
-            if(!isdigit(expression[i])){
-                isNum=0;
-                vector<int> left = diffWaysToCompute(expression.substr(0, i));
-                vector<int> right = diffWaysToCompute(expression.substr(i+1));
-                for(auto x: left){
-                    for(auto y: right){
-                        ans.push_back(solve(x, y, expression[i]));
+    bool isNum(char c) {
+        return c <= '9'  &&  c >= '0';
+    }
+
+    vector<int> dp[21][21];
+
+    vector<int> solve(int i, int j, string &exp) {
+        if (j == i) return {exp[i] - '0'};
+
+        if (j - i <= 1  &&  isNum(exp[i])  &&  isNum(exp[j]))  return {((exp[i] - '0') * 10) + (exp[j] - '0')};
+        
+        if (dp[i][j].size() > 0) return dp[i][j];
+
+        vector<int> posAns;
+
+        for (int k = i + 1; k < j; k++) {
+
+            if (isNum(exp[k])) continue;
+
+
+            auto leftSolution = solve(i, k - 1, exp);
+            auto rightSolution = solve(k + 1, j, exp);
+
+            for (int x: leftSolution) {
+                for (int y: rightSolution) {
+                    switch(exp[k]) {
+                        case '*':
+                            posAns.push_back(x * y);
+                        break;
+                        case '-':
+                            posAns.push_back(x - y);
+                        break;
+                        case '+':
+                            posAns.push_back(x + y);
+                        break;
                     }
                 }
             }
         }
-        if(isNum) ans.push_back(stoi(expression));
-        return ans;
+
+        return dp[i][j] = posAns;
+    }
+
+    vector<int> diffWaysToCompute(string expression) {
+        return solve(0, expression.size() - 1, expression);
     }
 };
