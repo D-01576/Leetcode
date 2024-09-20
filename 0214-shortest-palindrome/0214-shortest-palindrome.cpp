@@ -1,25 +1,29 @@
 class Solution {
 public:
     string shortestPalindrome(string s) {
-        if (s.empty()) return "";
-        string rev = string(s.rbegin(), s.rend());
-        string combined = s + "#" + rev;
-        vector<int> prefix(combined.size(), 0);
-        for (int i = 1; i < combined.size(); i++) {
-            int j = prefix[i - 1];
-            while (j > 0 && combined[i] != combined[j]) {
-                j = prefix[j - 1];
+        int count = kmp(string(s.rbegin(), s.rend()), s);
+        return string(s.rbegin(), s.rend()).substr(0, s.length() - count) + s;
+    }
+
+private:
+    int kmp(const string &txt, const string &patt) {
+        string newString = patt + '#' + txt;
+        vector<int> pi(newString.length(), 0);
+        int i = 1, k = 0;
+        while (i < newString.length()) {
+            if (newString[i] == newString[k]) {
+                k++;
+                pi[i] = k;
+                i++;
+            } else {
+                if (k > 0) {
+                    k = pi[k - 1];
+                } else {
+                    pi[i] = 0;
+                    i++;
+                }
             }
-            if (combined[i] == combined[j]) {
-                j++;
-            }
-            prefix[i] = j;
         }
-
-        int palLength = prefix.back();
-        string nonPalindromicSuffix = s.substr(palLength);
-
-        string addR = string(nonPalindromicSuffix.rbegin(), nonPalindromicSuffix.rend());
-        return addR + s;
+        return pi.back();
     }
 };
