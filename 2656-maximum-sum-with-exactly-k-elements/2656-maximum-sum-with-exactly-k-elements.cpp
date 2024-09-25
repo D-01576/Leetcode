@@ -1,17 +1,8 @@
 class Solution {
 public:
     int maximizeSum(vector<int>& nums, int k) {
-        int num = 0;
-        for(const auto& n : nums){
-            if(n > num){
-                num = n;
-            }
-        }
-        int ans = 0;
-        for(int i = 0 ; i < k;i++){
-            ans += num;
-            num++;
-        }
+        int greater = *max_element(nums.begin(), nums.end());
+        int ans = (k * (2 * greater + (k - 1))) / 2;
         return ans;
     }
 };
