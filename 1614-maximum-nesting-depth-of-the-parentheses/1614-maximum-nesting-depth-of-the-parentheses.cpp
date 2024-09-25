@@ -1,20 +1,17 @@
 class Solution {
 public:
     int maxDepth(string s) {
-        int max = 0;
-        int current = 0;
-        
-        for(int i = 0 ; i < s.size();i++){
-            if(s[i] == '('){
-                current++;
-            }
-            else if(s[i] == ')'){
-                if(max < current){
-                    max = current;
+        int ans = 0, open = 0; 
+        for(const auto& c : s){
+            if(c == '('){
+                open++;
+            }else if(c == ')'){
+                if(ans < open){
+                    ans = open;
                 }
-                current--;
+                open--;
             }
         }
-        return max;
+        return ans;
     }
 };
