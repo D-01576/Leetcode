@@ -1,11 +1,8 @@
-#include <vector>
-using namespace std;
-
 class Solution {
 private:
     vector<vector<int>> ans;
-    vector<int> candidates;
-    void solve(int start, vector<int>& current, int target) {
+    
+    void solve(vector<int>& candidates, int start, vector<int>& current, int target) {
         if (target == 0) {
             ans.push_back(current);
             return;
@@ -15,16 +12,15 @@ private:
             if (candidates[i] > target) continue; 
             
             current.push_back(candidates[i]); 
-            solve(i, current, target - candidates[i]); 
-            current.pop_back();
+            solve(candidates, i, current, target - candidates[i]); 
+            current.pop_back(); 
         }
     }
     
 public:
-    vector<vector<int>> combinationSum(vector<int>& candidate, int target) {
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<int> current;
-        candidates = candidate;
-        solve(0, current, target);
+        solve(candidates, 0, current, target);
         return ans;
     }
 };
