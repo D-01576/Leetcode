@@ -17,6 +17,9 @@ public:
         for(int i = 1; i < n;i++){
             string toAdd = solve(s);
             s += toAdd;
+            if(s.size() >= k){
+                return s[k-1];
+            }
         }
         return s[k-1];
     }
