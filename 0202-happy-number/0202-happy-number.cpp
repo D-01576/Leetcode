@@ -4,7 +4,7 @@ public:
         bool ishap = false;
         int times = 0;
         string num = to_string(n);
-        while(!ishap && times < 20) {
+        while(!ishap && times < 15) {
             int number = 0;
             for(int i = 0; i < num.size(); i++){
                 number += (num[i] - '0') * (num[i] - '0');
