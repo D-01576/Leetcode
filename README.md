@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/D-01576/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/D-01576/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/D-01576/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/D-01576/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/D-01576/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -20,12 +21,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/D-01576/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/D-01576/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/D-01576/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## String
 |  |
 | ------- |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/D-01576/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/D-01576/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Counting
 |  |
@@ -58,4 +61,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/D-01576/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+## Graph
+|  |
+| ------- |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+## Topological Sort
+|  |
+| ------- |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 <!---LeetCode Topics End-->
