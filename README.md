@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/D-01576/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1755-defuse-the-bomb](https://github.com/D-01576/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/D-01576/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/D-01576/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -74,4 +75,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+## Sliding Window
+|  |
+| ------- |
+| [1755-defuse-the-bomb](https://github.com/D-01576/Leetcode/tree/master/1755-defuse-the-bomb) |
 <!---LeetCode Topics End-->
