@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/D-01576/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/D-01576/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3812-smallest-palindromic-rearrangement-i](https://github.com/D-01576/Leetcode/tree/master/3812-smallest-palindromic-rearrangement-i) |
 ## Counting
 |  |
 | ------- |
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/D-01576/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [3430-count-days-without-meetings](https://github.com/D-01576/Leetcode/tree/master/3430-count-days-without-meetings) |
+| [3812-smallest-palindromic-rearrangement-i](https://github.com/D-01576/Leetcode/tree/master/3812-smallest-palindromic-rearrangement-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -79,4 +81,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1755-defuse-the-bomb](https://github.com/D-01576/Leetcode/tree/master/1755-defuse-the-bomb) |
+## Counting Sort
+|  |
+| ------- |
+| [3812-smallest-palindromic-rearrangement-i](https://github.com/D-01576/Leetcode/tree/master/3812-smallest-palindromic-rearrangement-i) |
 <!---LeetCode Topics End-->
