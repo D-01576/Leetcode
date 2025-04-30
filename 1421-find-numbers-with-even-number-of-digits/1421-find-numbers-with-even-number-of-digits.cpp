@@ -2,7 +2,7 @@ class Solution {
 public:
     int findNumbers(vector<int>& nums) {
         int ans = 0;
-        for(int a : nums) if(to_string(a).size() % 2 == 0) ans++;
+        for(int a : nums) if((a >= 10 && a <= 99) || (a>=1000 && a<=9999) || (a>=100000 && a<=999999)) ans++;
         return ans;
     }
 };
