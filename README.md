@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [1894-merge-strings-alternately](https://github.com/D-01576/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/D-01576/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/D-01576/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [1894-merge-strings-alternately](https://github.com/D-01576/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/D-01576/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Graph
 |  |
