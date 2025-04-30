@@ -6,12 +6,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/D-01576/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2649-count-total-number-of-colored-cells](https://github.com/D-01576/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/D-01576/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 ## Array
 |  |
 | ------- |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/D-01576/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/D-01576/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1755-defuse-the-bomb](https://github.com/D-01576/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/D-01576/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
