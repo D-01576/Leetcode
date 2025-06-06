@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/D-01576/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/D-01576/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3447-clear-digits](https://github.com/D-01576/Leetcode/tree/master/3447-clear-digits) |
 | [3812-smallest-palindromic-rearrangement-i](https://github.com/D-01576/Leetcode/tree/master/3812-smallest-palindromic-rearrangement-i) |
 ## Counting
 |  |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2456-construct-smallest-number-from-di-string](https://github.com/D-01576/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3447-clear-digits](https://github.com/D-01576/Leetcode/tree/master/3447-clear-digits) |
 ## Greedy
 |  |
 | ------- |
@@ -89,4 +91,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3812-smallest-palindromic-rearrangement-i](https://github.com/D-01576/Leetcode/tree/master/3812-smallest-palindromic-rearrangement-i) |
+## Simulation
+|  |
+| ------- |
+| [3447-clear-digits](https://github.com/D-01576/Leetcode/tree/master/3447-clear-digits) |
 <!---LeetCode Topics End-->
