@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/D-01576/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2649-count-total-number-of-colored-cells](https://github.com/D-01576/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/D-01576/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3321-type-of-triangle](https://github.com/D-01576/Leetcode/tree/master/3321-type-of-triangle) |
 ## Array
 |  |
 | ------- |
@@ -20,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2308-divide-array-into-equal-pairs](https://github.com/D-01576/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/D-01576/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/D-01576/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3321-type-of-triangle](https://github.com/D-01576/Leetcode/tree/master/3321-type-of-triangle) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/D-01576/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3430-count-days-without-meetings](https://github.com/D-01576/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/D-01576/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -68,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/D-01576/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [3321-type-of-triangle](https://github.com/D-01576/Leetcode/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/D-01576/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3812-smallest-palindromic-rearrangement-i](https://github.com/D-01576/Leetcode/tree/master/3812-smallest-palindromic-rearrangement-i) |
 ## Two Pointers
