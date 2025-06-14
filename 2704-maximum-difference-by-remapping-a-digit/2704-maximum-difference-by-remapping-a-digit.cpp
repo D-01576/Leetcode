@@ -1,42 +1,50 @@
 class Solution {
 public:
     int minMaxDifference(int num) {
-        string s = to_string(num);
         int mx = 0, mn = 0;
         bool foundmx = false;
         bool foundmn = false;
         int mxin = 0;
         int mnin = 0;
-        for(int i = 0; i < s.size();i++){
+        int pow10 = 1;
+        while (pow10 * 10 <= num) {
+            pow10 *= 10;
+        }
+
+        int n = num;
+        while (pow10 > 0) {
+            int digit = n / pow10;
+            n %= pow10;
+            pow10 /= 10;
             if(!foundmx){
-                if(s[i] != '9'){
+                if(digit != 9){
                     foundmx = true;
-                    mxin = i;
+                    mxin = digit;
                     cout<<mxin;
                 }
             }
 
             if(!foundmn){
-                if(s[i] != '0'){
-                    mnin = i;
+                if(digit != 0){
+                    mnin = digit;
                     foundmn= true;
                 }
             }
-            if(foundmx && s[i] == s[mxin]){
+            if(foundmx && digit == mxin){
                 mx = mx*10;
                 mx += 9;
                 
             }else{
                 mx = mx*10;
-                mx += s[i] - '0';   
+                mx += digit;   
             }
 
-            if(foundmn && s[i] == s[mnin]){
+            if(foundmn && digit == mnin){
                 mn = mn*10;
                 mn += 0;
             }else{
                 mn = mn*10;
-                mn += s[i]-'0';
+                mn += digit;
             }
 
         }
