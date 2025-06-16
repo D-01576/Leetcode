@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/D-01576/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1755-defuse-the-bomb](https://github.com/D-01576/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/D-01576/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/D-01576/Leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/D-01576/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/D-01576/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/D-01576/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
